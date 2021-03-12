@@ -1,13 +1,14 @@
+
 .portfolio{
     display:grid;
     grid-template-columns: auto auto auto;
     justify-content:space-around;
+   
 }
 .img{
     display:block;
     width: auto;
     height:300px;
-
 }
 
 @media screen and (max-width: 968px){

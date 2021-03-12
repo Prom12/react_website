@@ -4,7 +4,7 @@ import Header from './Header'
 
 export default function Portfolio({headerT,headerD,url,portT,portD,alt}) {
     return (
-        <div>
+        <div className='port-back'>
             <Header title={headerT} description={headerD}/>
                 <div className='portfolio'>   
                     <div className='portfolio-item'>
