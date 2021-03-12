@@ -1,0 +1,23 @@
+.portfolio{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    justify-content:space-around;
+}
+
+
+@media screen and (max-width: 968px){
+    .portfolio{
+        display:flex;
+        flex-direction:column;
+        padding:20px 0px;
+        justify-content: center;
+        align-items: center;
+    }
+    .img{
+        display:block;
+        width: 90vw;
+        height:300px;
+        border-radius: 10px;
+        margin: 0px auto;
+    }
+}

@@ -1,0 +1,44 @@
+:root{
+    --text-color: white;
+    --background: rgb(124, 124, 200);
+}
+
+.hero-container{
+    height:90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color:var(--background);
+}
+
+.head-title{
+    color: var(--text-color);
+    font-size: 18px;
+    margin: 2px;
+    line-height:40px;
+}
+
+.head-description{
+    color: var(--text-color);
+    margin: 2px;
+    line-height:40px;
+}
+.hero-button{
+    margin: 3px;
+}
+
+@media screen and (max-width: 768px){
+
+    .hero-container{
+        height:70vh;
+        flex-direction: column;        
+    }
+    .head-title{
+        color: var(--text-color);
+        font-size: 18px;
+        font-weight: normal;
+    }
+    
+       
+}
