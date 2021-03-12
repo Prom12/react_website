@@ -16,5 +16,6 @@ export const portfolioData = {
     headerD : 'Lorem ipsum dolor sit amet, consectetur',
     url : 'https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
     portT : 'Port title',
-    portD : 'Lorem ipsum dolor s'
+    portD : 'Lorem ipsum dolor s',
+    alt : '/default.jpg'
 }
