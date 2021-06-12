@@ -8,28 +8,28 @@ export default function Portfolio({headerT,headerD,url,portT,portD,alt}) {
             <Header title={headerT} description={headerD}/>
                 <div className='portfolio'>   
                     <div className='portfolio-item'>
-                        <img className='img' src={`${url}`} style={{backgroundImage:`url(${alt})`,alignSelf:'center', backgroundPosition:'center',}}></img>
+                        <img alt={headerT} className='img' src={`${url}`} style={{backgroundImage:`url(${alt})`,alignSelf:'center', backgroundPosition:'center',}}></img>
                         <div className='portfolio-des'>
                         <Header title={portT} description={portD}/>
                         </div>
                     </div>
 
                     <div className='portfolio-item'>
-                    <img className='img' src={`${url}`} style={{backgroundImage:`url(${alt})`,alignSelf:'center', backgroundPosition:'center',}}></img>
+                    <img alt={headerT} className='img' src={`${url}`} style={{backgroundImage:`url(${alt})`,alignSelf:'center', backgroundPosition:'center',}}></img>
                         <div className='portfolio-des'>
                         <Header title={portT} description={portD}/>
                         </div>
                     </div>
 
                     <div className='portfolio-item'>
-                    <img className='img' src={`${url}`} style={{backgroundImage:`url(${alt})`,alignSelf:'center', backgroundPosition:'center',}}></img>
+                    <img alt={headerT} className='img' src={`${url}`} style={{backgroundImage:`url(${alt})`,alignSelf:'center', backgroundPosition:'center',}}></img>
                         <div className='portfolio-des'>
                         <Header title={portT} description={portD}/>
                         </div>
                     </div>
 
                     <div className='portfolio-item'>
-                    <img className='img' src={`${url}`} style={{backgroundImage:`url(${alt})`,alignSelf:'center', backgroundPosition:'center',}}></img>
+                    <img alt={headerT} className='img' src={`${url}`} style={{backgroundImage:`url(${alt})`,alignSelf:'center', backgroundPosition:'center',}}></img>
                         <div className='portfolio-des'>
                         <Header title={portT} description={portD}/>
                         </div>
